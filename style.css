@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(227, 224, 221);
+}
+#containe-outer{
+    margin-top:100px ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#containe-inner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 179, 177);
+    border-radius: 5px;
+}
+#write-save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.writting-box{
+    width: 100vmin;
+    border: none;
+    outline: none;
+    padding: 2vmin;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(209, 217, 217);         
+}
+.add-button{
+    border: none;
+    outline: none;
+    padding: 2vmin;
+    width: 13vmin;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(31, 203, 203);
+    color: rgb(19, 12, 3);          
+    text-transform: capitalize;
+}
+.add-button:hover{
+    cursor: pointer;
+    padding: 2vmin;
+    color: rgb(15, 15, 186);
+    background-color: rgb(30, 231, 231);
+}
+ul li{
+    list-style: none;
+   font-weight: 40; 
+   line-height: 1.4;
+  color: rgb(3, 57, 104); 
+  font-family: sans-serif;         
+}
+li{
+    display: flex;
+    justify-content: space-between;   
+}
+span:hover{
+ cursor: pointer;
+}
+@media only screen and (max-width:650px){
+    *{
+        font-size: 3vmin;
+        font-weight: 300;
+        color: rgb(20, 20, 19);         
+
+    }
+    .writting-box{
+        width: 70vmin;
+        border: none;
+        outline: none;
+        padding: 2vmin;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: rgb(209, 217, 217);
+    }
+    .add-button{
+        border: none;
+        outline: none;
+        padding: 2vmin;
+        width: 13vmin;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgb(31, 203, 203);
+        color: rgb(30, 29, 28);          
+        text-transform: capitalize;
+    }  
+}
